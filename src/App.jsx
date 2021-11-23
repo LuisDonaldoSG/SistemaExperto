@@ -1,6 +1,6 @@
 import React from 'react';
 import {preguntas} from './tools/preguntas';
-import {ContadormMatarias} from './tools/materias';
+import {ContadorMatarias} from './tools/materias';
 
 function App() {  
 
