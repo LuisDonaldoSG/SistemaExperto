@@ -169,6 +169,124 @@ const preguntas = [
         'Personayproyectodevida',
         'Responsabilidadsocialymundocontemporaneo'
       ]
+    },
+    //Redes
+    {
+      pregunta : "¿Te gustaría ejercer tus actividades en interiores o exteriores?", 
+      tipo: "especialidad", 
+      respuesta: null, 
+      materias: [
+        'RedesIII',
+        'RedesIV',
+        'Serviciosdered',
+        'Seguridadyauditoriadesistemas'
+      ]
+    },
+    //Especial Redes y electronica.
+    {
+      pregunta : "o	¿Te gustan las actividades que requieran el uso de herramientas y/o el uso de tus manos en el proceso para completar tareas físicas?", 
+      tipo: "especialidad", 
+      respuesta: null, 
+      materias: [
+        'RedesIII',
+        'RedesIV',
+        'Serviciosdered',
+        'Seguridadyauditoriadesistemas',
+        'Electronica',
+        'Teoriadecircuitos',
+        'Sensoresyactuadores',
+        'SensoresyactuadoresII'
+      ]
+    },
+    {
+      pregunta : "o	¿Eres aficionado a la idea de ensamblar equipos de cómputo o conocer sus componentes?", 
+      tipo: "especialidad", 
+      respuesta: null, 
+      materias: [
+        'RedesIII',
+        'RedesIV',
+        'Serviciosdered',
+        'Seguridadyauditoriadesistemas'
+      ]
+    },
+    {
+      pregunta : "Si tuvieras la capacidad de cambiar el entorno físico para mejorar el rendimiento que puede proporcionar un sistema, ¿lo harías?", 
+      tipo: "especialidad", 
+      respuesta: null, 
+      materias: [
+        'RedesIII',
+        'RedesIV',
+        'Serviciosdered',
+        'Seguridadyauditoriadesistemas'
+      ]
+    } ,
+    //Programacion 
+    {
+      pregunta : "¿Te interesa desarrollar proyectos informáticos mediante el uso de programas?", 
+      tipo: "especialidad", 
+      respuesta: null, 
+      materias: [
+        'ProgramacionwebI',
+        'ProgramacionwebII',
+        'Programaciondesistemasmoviles',
+        'ProgramaciondesistemasmovilesII'
+      ]
+    },
+    {
+      pregunta : "¿Te interesa la creación de aplicaciones o videojuegos?", 
+      tipo: "especialidad", 
+      respuesta: null, 
+      materias: [
+        'ProgramacionwebI',
+        'ProgramacionwebII',
+        'Programaciondesistemasmoviles',
+        'ProgramaciondesistemasmovilesII'
+      ]
+    },
+    {
+      pregunta : "¿El uso de computadoras en tu día a día consume una gran parte de tu tiempo?", 
+      tipo: "especialidad", 
+      respuesta: null, 
+      materias: [
+        'ProgramacionwebI',
+        'ProgramacionwebII',
+        'Programaciondesistemasmoviles',
+        'ProgramaciondesistemasmovilesII'
+      ]
+    },
+    //Electronica
+    {
+      pregunta : "¿Eres fanático de los robots y te gustaría ensamblar uno?", 
+      tipo: "especialidad", 
+      respuesta: null, 
+      materias: [
+        'Electronica',
+        'Teoriadecircuitos',
+        'Sensoresyactuadores',
+        'SensoresyactuadoresII'
+      ]
+    },
+    {
+      pregunta : "¿Alguna vez te has preguntado cómo funcionan los aparatos electrónicos por dentro?", 
+      tipo: "especialidad", 
+      respuesta: null, 
+      materias: [
+        'Electronica',
+        'Teoriadecircuitos',
+        'Sensoresyactuadores',
+        'SensoresyactuadoresII'
+      ]
+    },
+    {
+      pregunta : "¿Te has puesto a pensar en cómo se comunican los circuitos de dispositivo electrónico?", 
+      tipo: "especialidad", 
+      respuesta: null, 
+      materias: [
+        'Electronica',
+        'Teoriadecircuitos',
+        'Sensoresyactuadores',
+        'SensoresyactuadoresII'
+      ]
     }
   ]
 
