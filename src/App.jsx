@@ -15,7 +15,6 @@ function App() {
           ))        
         ))
       )
-
     ))
 
     console.log(ContadorMatarias)
@@ -23,45 +22,164 @@ function App() {
 
   return (
 
-    <div className="container mt-4 mb-4">
-      <form className="form-control col-6" onSubmit={aumentarContador}>
+    <div className="container mt-4 mb-4 " >
+      
+      <form className="form-control back" onSubmit={aumentarContador}>
+      <h4 className="text-center mt-4">Optativas</h4>
         {
           preguntas.map((item, index) => (
-            <>
-              <div className="container m-5" key={index}>
+            item.tipo === 'optativa' && (
+              <>
 
-                <h6>{item.pregunta}</h6>
+                <div className="container m-5" key={index}>
 
-                <div className="form-check">
-                  <input 
-                    type="radio" 
-                    className="form-check-input" 
-                    name={item.pregunta}
-                    onChange={event => preguntas[index].respuesta = true}
-                  />
-                  <label className="form-check-label">Si</label>
+                  <h6>{item.pregunta}</h6>
+
+                  <div className="form-check">
+                    <input 
+                      type="radio" 
+                      className="form-check-input" 
+                      name={item.pregunta}
+                      onChange={event => preguntas[index].respuesta = true}
+                    />
+                    <label className="form-check-label">Si</label>
+                  </div>
+
+                  <div className="form-check">
+                    <input 
+                      type="radio" 
+                      className="form-check-input" 
+                      name={item.pregunta}
+                      onChange={event => preguntas[index].respuesta = false}
+                    />
+                    <label className="form-check-label">No</label>
+                  </div>
+
                 </div>
+              </>
+            )
+          ))
+        }
 
-                <div className="form-check">
-                  <input 
-                    type="radio" 
-                    className="form-check-input" 
-                    name={item.pregunta}
-                    onChange={event => preguntas[index].respuesta = false}
-                  />
-                  <label className="form-check-label">No</label>
+      <hr/>
+
+      <h4  className="text-center mt-4" >Especialidad en redes</h4>
+        {
+          
+          preguntas.map((item, index) => (
+            item.tipo === 'redes' && (
+              <>
+
+                <div className="container m-5" key={index}>
+
+                  <h6>{item.pregunta}</h6>
+
+                  <div className="form-check">
+                    <input 
+                      type="radio" 
+                      className="form-check-input" 
+                      name={item.pregunta}
+                      onChange={event => preguntas[index].respuesta = true}
+                    />
+                    <label className="form-check-label">Si</label>
+                  </div>
+
+                  <div className="form-check">
+                    <input 
+                      type="radio" 
+                      className="form-check-input" 
+                      name={item.pregunta}
+                      onChange={event => preguntas[index].respuesta = false}
+                    />
+                    <label className="form-check-label">No</label>
+                  </div>
+
                 </div>
+             
+              </>
+            )
+          ))
+        }
+        <hr/>
 
-              </div>
-              <hr/>
-              
-            </>
+        <h4  className="text-center mt-4">Especialidad en programación</h4>
+        {
+          
+          preguntas.map((item, index) => (
+            item.tipo === 'programacion' && (
+              <>
+
+                <div className="container m-5" key={index}>
+
+                  <h6>{item.pregunta}</h6>
+
+                  <div className="form-check">
+                    <input 
+                      type="radio" 
+                      className="form-check-input" 
+                      name={item.pregunta}
+                      onChange={event => preguntas[index].respuesta = true}
+                    />
+                    <label className="form-check-label">Si</label>
+                  </div>
+
+                  <div className="form-check">
+                    <input 
+                      type="radio" 
+                      className="form-check-input" 
+                      name={item.pregunta}
+                      onChange={event => preguntas[index].respuesta = false}
+                    />
+                    <label className="form-check-label">No</label>
+                  </div>
+
+                </div>
+                
+              </>
+            )
+          ))
+        }
+        <hr/>
+        <h4  className="text-center mt-4">Especialidad en electronica</h4>
+        {
+          
+          preguntas.map((item, index) => (
+            item.tipo === 'electronica' && (
+              <>
+
+                <div className="container m-5" key={index}>
+
+                  <h6>{item.pregunta}</h6>
+
+                  <div className="form-check">
+                    <input 
+                      type="radio" 
+                      className="form-check-input" 
+                      name={item.pregunta}
+                      onChange={event => preguntas[index].respuesta = true}
+                    />
+                    <label className="form-check-label">Si</label>
+                  </div>
+
+                  <div className="form-check">
+                    <input 
+                      type="radio" 
+                      className="form-check-input" 
+                      name={item.pregunta}
+                      onChange={event => preguntas[index].respuesta = false}
+                    />
+                    <label className="form-check-label">No</label>
+                  </div>
+
+                </div>
+              </>
+            )
           ))
         }
 
         <button 
           type = 'submit'
-          className="w-100 btn btn-primary"
+          className="w-100 btn btn-primary mb-3"
         >
           Enviar
         </button>
