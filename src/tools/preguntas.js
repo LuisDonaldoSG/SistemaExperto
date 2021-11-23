@@ -287,6 +287,15 @@ const preguntas = [
         'Sensoresyactuadores',
         'SensoresyactuadoresII'
       ]
+    },
+    //Tronco comun 
+    {
+      pregunta : "¿Tienes algún certificado de inglés equivalente a B2?", 
+      tipo: "troncocomun", 
+      respuesta: null, 
+      materias: [
+        'Ingles',
+      ]
     }
   ]
 

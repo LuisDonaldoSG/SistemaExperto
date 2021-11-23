@@ -40,7 +40,14 @@ const ContadorMatarias = [
     {materia: 'BasededatosII', contador:0},
     {materia: 'RedesII', contador:0},
     
-       
+    {materia: 'Metodologiadelainvestigacion', contador:0},
+    {materia: 'Administracion', contador:0},
+    {materia: 'Contabilidadfinanciera', contador:0},
+    {materia: 'Tecnicasdeinvestigacion', contador:0},
+    {materia: 'Ingles', contador:0},
+    {materia: 'Desarrollodeemprendedores', contador:0},
+    {materia: 'Administraciondelastecnologiasdeinformacion', contador:0},
+     
 ]
 
 export {ContadorMatarias}
