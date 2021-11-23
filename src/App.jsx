@@ -2,17 +2,35 @@ import React from 'react';
 import {preguntas} from './tools/preguntas';
 import {ContadorMatarias} from './tools/materias';
 
-function App() {  
+function App() {
+  
+  const aumentarContador = event => {
+    event.preventDefault();
+
+    preguntas.map( itemP => (
+      itemP.respuesta === true && (
+        itemP.materias.map(itemMm => (
+          ContadorMatarias.map(itemM => (
+            itemMm === itemM.materia && (itemM.contador =  itemM.contador +1)
+          ))        
+        ))
+      )
+
+    ))
+
+    console.log(ContadorMatarias)
+  }
 
   return (
-    <div className="container mt-4">
-      <form className="form-control">
+
+    <div className="container mt-4 mb-4">
+      <form className="form-control col-6" onSubmit={aumentarContador}>
         {
           preguntas.map((item, index) => (
             <>
-              <div className="container" key={index}>
+              <div className="container m-5" key={index}>
 
-                <h4>{item.pregunta}</h4>
+                <h6>{item.pregunta}</h6>
 
                 <div className="form-check">
                   <input 
@@ -34,18 +52,16 @@ function App() {
                   <label className="form-check-label">No</label>
                 </div>
 
-                <hr />
-
               </div>
+              <hr/>
               
             </>
           ))
         }
 
         <button 
-          type = 'button'
+          type = 'submit'
           className="w-100 btn btn-primary"
-          onClick={() => console.log(preguntas)}
         >
           Enviar
         </button>
