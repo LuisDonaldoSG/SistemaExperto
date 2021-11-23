@@ -5,9 +5,9 @@ const preguntas = [
       respuesta: null, 
       materias: [
         'Multimedios',
-        'GraficoSPorCumputadora',
-        'DiseñoYDesarroolloDeVideojuegos',
-        'ComercioElectronico'
+        'Graficasporcomputadora',
+        'Disenoydesarrollodevideojuegos',
+        'Comercioelectronico'
       ]
     },
     {
@@ -15,8 +15,8 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'ArteCulturaYSociedad',
-        'PropuestaCristiana'
+        'Arteculturaysociedad',
+        'Propuestacristiana'
       ]
     },
     {
@@ -24,9 +24,9 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'ArteCulturaYSociedad',
-        'PropuestaCristiana',
-        'ApreciacionCinematográfica'
+        'Arteculturaysociedad',
+        'Propuestacristiana',
+        'Apreciacioncinematografica'
       ]
     },
     {
@@ -34,8 +34,8 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Comercio Electronico',
-        'Gestión de proyectos informáticos'
+        'Comercioelectronico',
+        'Gestiondeproyectosinformaticos'
       ]
     },
     {
@@ -43,7 +43,7 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Apreciación cinematográfica',
+        'Apreciacioncinematografica',
         'Multimedios'
       ]
     },
@@ -52,8 +52,8 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Arte, cultura y sociedad',
-        'Propuesta cristiana'
+        'Arteculturaysociedad',
+        'Propuestacristiana'
       ]
     },
     {
@@ -61,8 +61,8 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Gestión de proyectos informáticos',
-        'Sistemas de información integral'
+        'Gestiondeproyectosinformaticos',
+        'Sistemasdeinformacionintegral'
       ]
     },
     {
@@ -71,9 +71,9 @@ const preguntas = [
       respuesta: null, 
       materias: [
         'Multimedios',
-        'Gráficas por computadora',
-        'Diseño y desarrollo de videojuegos',
-        'Comercio electrónico'
+        'Graficasporcomputadora',
+        'Disenoydesarrollodevideojuegos',
+        'Comercioelectronico'
       ]
     },
     {
@@ -81,8 +81,8 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Arte, cultura y sociedad',
-        'Propuesta cristiana'
+        'Arteculturaysociedad',
+        'Propuestacristiana'
       ]
     },
     {
@@ -90,9 +90,9 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Arte, cultura y sociedad',
-        'Propuesta cristiana',
-        'Apreciación cinematográfica'
+        'Arteculturaysociedad',
+        'Propuestacristiana',
+        'Apreciacioncinematografica'
       ]
     },
     {
@@ -100,10 +100,10 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Técnicas de investigación',
-        'Gestión de proyectos informáticos',
-        'Persona y proyecto de vida',
-        'Sistemas de información integral '
+        'Tecnicasdeinvestigacion',
+        'Gestiondeproyectosinformaticos',
+        'Personayproyectodevida',
+        'Sistemasdeinformacionintegral'
       ]
     },
     {
@@ -111,8 +111,8 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Comercio electrónico',
-        'Gestión de proyectos informáticos'
+        'Comercioelectronico',
+        'Gestiondeproyectosinformaticos'
       ]
     },
     {
@@ -120,7 +120,7 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Apreciación cinematográfica',
+        'Apreciacioncinematografica',
         'Multimedios'
       ]
     },
@@ -129,8 +129,8 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Arte, cultura y sociedad',
-        'Propuesta cristiana'
+        'Arteculturaysociedad',
+        'Propuestacristiana'
       ]
     },
     {
@@ -138,8 +138,8 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Gestión de proyectos informáticos',
-        'Sistemas de información integral'
+        'Gestiondeproyectosinformaticos',
+        'Sistemasdeinformacionintegral'
       ]
     },
     {
@@ -147,9 +147,9 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Responsabilidad social y mundo contemporáneo',
-        'Gestión de proyectos informáticos',
-        'Sistemas de información integral '
+        'Responsabilidadsocialymundocontemporaneo',
+        'Gestiondeproyectosinformaticos',
+        'Sistemasdeinformacionintegral'
       ]
     },
     {
@@ -157,8 +157,8 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Diseño y desarrollo de videojuegos',
-        'Gráficas por computadora'
+        'Disenoydesarrollodevideojuegos',
+        'Graficasporcomputadora'
       ]
     },
     {
@@ -166,8 +166,8 @@ const preguntas = [
       tipo: "optativa", 
       respuesta: null, 
       materias: [
-        'Persona y proyecto de vida',
-        'Responsabilidad social y mundo contemporáneo'
+        'Personayproyectodevida',
+        'Responsabilidadsocialymundocontemporaneo'
       ]
     }
   ]

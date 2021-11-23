@@ -1,9 +1,9 @@
 const ContadormMatarias = [
-    {Muntimedios:0},
+    {Multimedios:0},
     {Disenoydesarrollodevideojuegos:0},
     {Comercioelectronico:0},
     {Graficasporcomputadora:0},
-    {PersonaYProyectoDeVida:0},
+    {Personayproyectodevida:0},
     {Propuestacristiana:0},
     {Arteculturaysociedad:0},
     {Responsabilidadsocialymundocontemporaneo:0},
