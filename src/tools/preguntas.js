@@ -173,7 +173,7 @@ const preguntas = [
     //Redes
     {
       pregunta : "¿Te gustaría ejercer tus actividades en interiores o exteriores?", 
-      tipo: "especialidad", 
+      tipo: "redes", 
       respuesta: null, 
       materias: [
         'RedesIII',
@@ -182,25 +182,22 @@ const preguntas = [
         'Seguridadyauditoriadesistemas'
       ]
     },
-    //Especial Redes y electronica.
+    //Especial Redes 
     {
-      pregunta : "o	¿Te gustan las actividades que requieran el uso de herramientas y/o el uso de tus manos en el proceso para completar tareas físicas?", 
-      tipo: "especialidad", 
+      pregunta : "¿Te gustan las actividades que requieran el uso de herramientas y/o el uso de tus manos en el proceso para completar tareas físicas?", 
+      tipo: "redes", 
       respuesta: null, 
       materias: [
         'RedesIII',
         'RedesIV',
         'Serviciosdered',
         'Seguridadyauditoriadesistemas',
-        'Electronica',
-        'Teoriadecircuitos',
-        'Sensoresyactuadores',
-        'SensoresyactuadoresII'
       ]
     },
+    
     {
       pregunta : "o	¿Eres aficionado a la idea de ensamblar equipos de cómputo o conocer sus componentes?", 
-      tipo: "especialidad", 
+      tipo: "redes", 
       respuesta: null, 
       materias: [
         'RedesIII',
@@ -211,7 +208,7 @@ const preguntas = [
     },
     {
       pregunta : "Si tuvieras la capacidad de cambiar el entorno físico para mejorar el rendimiento que puede proporcionar un sistema, ¿lo harías?", 
-      tipo: "especialidad", 
+      tipo: "redes", 
       respuesta: null, 
       materias: [
         'RedesIII',
@@ -223,7 +220,7 @@ const preguntas = [
     //Programacion 
     {
       pregunta : "¿Te interesa desarrollar proyectos informáticos mediante el uso de programas?", 
-      tipo: "especialidad", 
+      tipo: "programacion", 
       respuesta: null, 
       materias: [
         'ProgramacionwebI',
@@ -234,7 +231,7 @@ const preguntas = [
     },
     {
       pregunta : "¿Te interesa la creación de aplicaciones o videojuegos?", 
-      tipo: "especialidad", 
+      tipo: "programacion", 
       respuesta: null, 
       materias: [
         'ProgramacionwebI',
@@ -245,7 +242,7 @@ const preguntas = [
     },
     {
       pregunta : "¿El uso de computadoras en tu día a día consume una gran parte de tu tiempo?", 
-      tipo: "especialidad", 
+      tipo: "programacion", 
       respuesta: null, 
       materias: [
         'ProgramacionwebI',
@@ -256,8 +253,19 @@ const preguntas = [
     },
     //Electronica
     {
+      pregunta : "¿Te gustan las actividades que requieran el uso de herramientas y/o el uso de tus manos en el proceso para completar tareas físicas?", 
+      tipo: "electronica", 
+      respuesta: null, 
+      materias: [
+        'Electronica',
+        'Teoriadecircuitos',
+        'Sensoresyactuadores',
+        'SensoresyactuadoresII'
+      ]
+    },
+    {
       pregunta : "¿Eres fanático de los robots y te gustaría ensamblar uno?", 
-      tipo: "especialidad", 
+      tipo: "electronica", 
       respuesta: null, 
       materias: [
         'Electronica',
@@ -268,7 +276,7 @@ const preguntas = [
     },
     {
       pregunta : "¿Alguna vez te has preguntado cómo funcionan los aparatos electrónicos por dentro?", 
-      tipo: "especialidad", 
+      tipo: "electronica", 
       respuesta: null, 
       materias: [
         'Electronica',
@@ -279,7 +287,7 @@ const preguntas = [
     },
     {
       pregunta : "¿Te has puesto a pensar en cómo se comunican los circuitos de dispositivo electrónico?", 
-      tipo: "especialidad", 
+      tipo: "electronica", 
       respuesta: null, 
       materias: [
         'Electronica',
