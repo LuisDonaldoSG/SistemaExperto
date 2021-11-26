@@ -3,10 +3,9 @@ import { ContadorMatarias } from './tools/materias';
 import { materias } from './tools/bancoConocimiento';
 
 function Resultados (){
-  
-    const [planAcademico,setPlanAcademico] = React.useState([])   
-    let multiple = false         
-
+  const [planAcademico,setPlanAcademico] = React.useState([])
+  let multiple = false
+      
     const crearPlan = () => {            
       //Ordenamiento de las materias con las que se tenga mayor interés
       ContadorMatarias.sort((a,b) => {
@@ -57,42 +56,52 @@ function Resultados (){
         }        
       }      
       setPlanAcademico(temporal)                   
-    }    
+    }
+    
+    React.useEffect (() =>{
+      crearPlan()
+    }, [])
 
     return (
-        <div className="container m-5">
-            <button className="w-100 btn btn-primary mb-3" onClick={() =>crearPlan()}>Generar</button>
-            <ul>
-              {
-                planAcademico.map(itemP => (                  
-                  itemP.tipo === 'formacionprofesional' && <li key={itemP.materia}>{itemP.materia}</li>
-                ))
-              }
-            </ul>
-            <hr/>
-            <ul>
-              {
-                planAcademico.map(itemP => (                  
-                  itemP.tipo === 'troncocomun' && <li key={itemP.materia}>{itemP.materia}</li>
-                ))
-              }
-            </ul>
-            <hr/>
-            <ul>
-              {
-                planAcademico.map(itemP => (                  
-                  itemP.tipo === 'especialidad' && <li key={itemP.materia}>{itemP.materia}</li>
-                ))
-              }
-            </ul>
-            <hr/>
-            <ul>
-              {
-                planAcademico.map(itemP => (                  
-                  itemP.tipo === 'optativa' && <li key={itemP.materia}>{itemP.materia}</li>
-                ))
-              }
-            </ul>
+        <div className="container mt-5 mb-5">
+          <h3 className = "mb-5 text-center">Resultado en base a tus preferencias</h3>
+          <div className="container ">
+            <h4>Formación profecional</h4>
+            <ul className= "list-group ">
+                {
+                  planAcademico.map(itemP => (                  
+                    itemP.tipo === 'formacionprofesional' && <li key={itemP.materia} className="list-group-item">{itemP.materia}</li>
+                  ))
+                }
+              </ul>
+              <hr/>
+              <h4>Materias de tronco común</h4>
+              <ul className= "list-group ">
+                {
+                  planAcademico.map(itemP => (                  
+                    itemP.tipo === 'troncocomun' && <li key={itemP.materia} className="list-group-item">{itemP.materia}</li>
+                  ))
+                }
+              </ul>
+              <hr/>
+              <h4>Especialidad</h4>
+              <ul className= "list-group ">
+                {
+                  planAcademico.map(itemP => (                  
+                    itemP.tipo === 'especialidad' && <li key={itemP.materia} className="list-group-item">{itemP.materia}</li>
+                  ))
+                }
+              </ul>
+              <hr/>
+              <h4>Marterias optativas</h4>
+              <ul className= "list-group ">
+                {
+                  planAcademico.map(itemP => (                  
+                    itemP.tipo === 'optativa' && <li key={itemP.materia} className="list-group-item">{itemP.materia}</li>
+                  ))
+                }
+              </ul>
+          </div>
         </div>
     )
 }

@@ -10,16 +10,23 @@ function Formulario() {
   
   const usuario_elige = event => {
     event.preventDefault();
+    let fail = false
 
     preguntas.map( itemP => (
-      itemP.respuesta === true && (
-        itemP.materias.map(itemMm => (
-          ContadorMatarias.map(itemM => (
-            itemMm === itemM.materia && (itemM.contador =  itemM.contador +1)
-          ))        
-        ))
+      itemP.respuesta === null ? (fail = true) : (
+        itemP.respuesta === true && (
+          itemP.materias.map(itemMm => (
+            ContadorMatarias.map(itemM => (
+              itemMm === itemM.materia && (itemM.contador =  itemM.contador +1)
+            ))        
+          ))
+        )
       )
-    ))        
+    ))   
+    if (fail) {
+      alert('No puede dejar ninguna pregunta sin contestar')
+      return
+    }     
     history.push('/resultados')
   }
 
@@ -62,7 +69,6 @@ function Formulario() {
             )
           ))
         }
-      <hr/>      
       
       <h4 className="text-center mt-4">Optativas</h4>
         {
@@ -100,7 +106,7 @@ function Formulario() {
           ))
         }
 
-      <hr/>
+
       <h4  className="text-center mt-4" >Elección de especialidad</h4>
         {
           
@@ -176,8 +182,7 @@ function Formulario() {
             )
           ))
           
-        }
-        <hr/>        
+        }   
         <button 
           type = 'submit'
           className="w-100 btn btn-primary mb-3"

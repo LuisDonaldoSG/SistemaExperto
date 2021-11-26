@@ -77,7 +77,7 @@ const preguntas = [
       ]
     },
     {
-      pregunta : "Te gustaría desarrollar proyectos donde se tenga presente un equilibrio que ayude a la sociedad ", 
+      pregunta : "Te gustaría desarrollar proyectos donde se tenga presente un equilibrio que ayude a la sociedad", 
       tipo: "optativa", 
       respuesta: null, 
       materias: [
@@ -87,7 +87,7 @@ const preguntas = [
       ]
     },
     {
-      pregunta : "Te interesaría desarrollar modelos tridimensionales ", 
+      pregunta : "Te interesaría desarrollar modelos tridimensionales", 
       tipo: "optativa", 
       respuesta: null, 
       materias: [
