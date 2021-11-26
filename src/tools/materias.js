@@ -17,9 +17,9 @@ const ContadorMatarias = [
     {materia: 'Ingles', contador:0},
 
     //Especialidades
-    {materia: 'Telecomunicaciones', contador:0},
-    {materia: 'Desarrollodeaplicaciones', contador:0},    
-    {materia: 'Circuitosyelectronica', contador:0},
+    {materia: 'Telecomunicaciones', contador:0, tipo:'especialidad'},
+    {materia: 'Desarrollodeaplicaciones', contador:0, tipo:'especialidad'},    
+    {materia: 'Circuitosyelectronica', contador:0, tipo: 'especialidad'},
 
     //Adicional
     {materia: 'especialidadmultiple', contador:0},

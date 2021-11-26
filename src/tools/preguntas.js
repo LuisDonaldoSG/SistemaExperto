@@ -11,15 +11,6 @@ const preguntas = [
       ]
     },
     {
-      pregunta : "Te gusta aprender diferentes culturas", 
-      tipo: "optativa", 
-      respuesta: null, 
-      materias: [
-        'Arteculturaysociedad',
-        'Propuestacristiana'
-      ]
-    },
-    {
       pregunta : "¿Te agradan los temas históricos y reflexivos que permiten expandir tu perspectiva?", 
       tipo: "optativa", 
       respuesta: null, 
@@ -27,15 +18,6 @@ const preguntas = [
         'Arteculturaysociedad',
         'Propuestacristiana',
         'Apreciacioncinematografica'
-      ]
-    },
-    {
-      pregunta : "Te interesaría conocer cómo se mueve el comercio en internet y la forma de sacarle provecho", 
-      tipo: "optativa", 
-      respuesta: null, 
-      materias: [
-        'Comercioelectronico',
-        'Gestiondeproyectosinformaticos'
       ]
     },
     {
@@ -48,51 +30,12 @@ const preguntas = [
       ]
     },
     {
-      pregunta : "Te has preguntado como la sociedad puede cambiar en base a sus creencias", 
-      tipo: "optativa", 
-      respuesta: null, 
-      materias: [
-        'Arteculturaysociedad',
-        'Propuestacristiana'
-      ]
-    },
-    {
-      pregunta : "Eres una persona curiosa que le gusta estudiar, recoger y analizar datos", 
-      tipo: "optativa", 
-      respuesta: null, 
-      materias: [
-        'Gestiondeproyectosinformaticos',
-        'Sistemasdeinformacionintegral'
-      ]
-    },
-    {
-      pregunta : "Eres una persona creativa que le gusta plasmar sus ideas ", 
-      tipo: "optativa", 
-      respuesta: null, 
-      materias: [
-        'Multimedios',
-        'Graficasporcomputadora',
-        'Disenoydesarrollodevideojuegos',
-        'Comercioelectronico'
-      ]
-    },
-    {
       pregunta : "Te gusta aprender diferentes culturas", 
       tipo: "optativa", 
       respuesta: null, 
       materias: [
         'Arteculturaysociedad',
         'Propuestacristiana'
-      ]
-    },
-    {
-      pregunta : "¿Te agradan los temas históricos y reflexivos que permiten expandir tu perspectiva?", 
-      tipo: "optativa", 
-      respuesta: null, 
-      materias: [
-        'Arteculturaysociedad',
-        'Propuestacristiana',
-        'Apreciacioncinematografica'
       ]
     },
     {
@@ -113,15 +56,6 @@ const preguntas = [
       materias: [
         'Comercioelectronico',
         'Gestiondeproyectosinformaticos'
-      ]
-    },
-    {
-      pregunta : "Te interesaría desarrollar secuencias de imágenes para plasmar tus ideas", 
-      tipo: "optativa", 
-      respuesta: null, 
-      materias: [
-        'Apreciacioncinematografica',
-        'Multimedios'
       ]
     },
     {
